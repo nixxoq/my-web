@@ -1,3 +1,3 @@
 ### My personal Website
 
-#### This is my website written using Microsoft Frontpage 2000 (because i don't know HTML 4)
+#### This is my website written with HTML and CSS (previous versions were created with Microsoft Frontpage 2000)
