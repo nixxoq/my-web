@@ -9,6 +9,14 @@
   <title>Snaky1a's Home Page</title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
+  <script>
+    var currentDate = new Date();
+    var currentMonth = currentDate.getMonth();
+    var currentDay = currentDate.getDate();
+
+    if (currentMonth == 0 && currentDay >= 1 && currentDay <= 12) { document.write('<p align="center"><img src="/images/christmas-lights.gif" alt="Happy new Year!"></p>') }
+  </script>
+
   <!-- styles -->
   <style>
   </style>
@@ -18,10 +26,6 @@
 
 <body bgcolor="#000000">
   <!-- Banners -->
-  <p align="center">
-    <img src="/images/christmas-lights.gif" alt="Happy new Year!">
-  </p>
-
   <p align="center">
     <a href="/index.htm">
       <img src="/images/index.htm_cmp_artsy010_bnr.gif" alt="Snaky1a's Website">
@@ -66,7 +70,8 @@
                   </font>
                   <hr>
                   <font>
-                    <a href="/guides/" style="text-decoration: none; color: #0000ce;">Guides/Tutorials for Windows XP</a>
+                    <a href="/guides/" style="text-decoration: none; color: #0000ce;">Guides/Tutorials for Windows
+                      XP</a>
                   </font>
                   <hr>
                 </font>

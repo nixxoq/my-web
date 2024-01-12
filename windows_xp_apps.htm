@@ -10,6 +10,14 @@
   <title>Snaky1a's Home Page</title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
+  <script>
+    var currentDate = new Date();
+    var currentMonth = currentDate.getMonth();
+    var currentDay = currentDate.getDate();
+
+    if (currentMonth == 0 && currentDay >= 1 && currentDay <= 12) { document.write('<p align="center"><img src="/images/christmas-lights.gif" alt="Happy new Year!"></p>') }
+  </script>
+
   <!-- styles -->
   <style>
   </style>
@@ -19,9 +27,6 @@
 
 <body bgcolor="#000000">
   <!-- Banners -->
-  <p align="center">
-    <img src="/images/christmas-lights.gif" alt="Happy new Year!">
-  </p>
 
   <p align="center">
     <a href="/index.htm">
@@ -67,7 +72,8 @@
                   </font>
                   <hr>
                   <font>
-                    <a href="/guides/" style="text-decoration: none; color: #0000ce;">Guides/Tutorials for Windows XP</a>
+                    <a href="/guides/" style="text-decoration: none; color: #0000ce;">Guides/Tutorials for Windows
+                      XP</a>
                   </font>
                   <hr>
                 </font>
@@ -244,7 +250,8 @@
                     </td>
                     <td width="48%" height="18">
                       <font face="Arial, Helvetica">
-                        <a href="/files/XP/python/Python3.8_ddfdeced29.7z" style="text-decoration: none; color: #1edd05">
+                        <a href="/files/XP/python/Python3.8_ddfdeced29.7z"
+                          style="text-decoration: none; color: #1edd05">
                           <font color="#1edd05">Python 3.8.12 (with workarounds)</font>
                         </a>
                       </font>
