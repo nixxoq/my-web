@@ -1,10 +1,10 @@
 ### My new website
 
-#### Based on [Octobanon's source code](https://github.com/Octobanon-Main/website)
+#### Based on [OctoBanon's source code](https://git.octobanon.com/OctoBanon/MyWebsite)
 
 ### Credits
 #### Source code
-- **[Octobanon](https://github.com/Octobanon-Main)**
+- **[OctoBanon](https://git.octobanon.com/OctoBanon)**
 
 #### Fonts used
 - **[JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)**
